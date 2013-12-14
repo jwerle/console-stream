@@ -11,6 +11,13 @@ Install with [component(1)](http://component.io):
 $ component install jwerle/console-stream
 ```
 
+## api
+
+### ConsoleStream(/*Console|Object*/ console [, /*String*/fn])
+
+* `console` - A `Console` object
+* `fn` - The method name to write with (default: log)
+
 ## usage
 
 ```js

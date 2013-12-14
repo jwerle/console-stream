@@ -1,0 +1,17 @@
+{
+  "name": "console-stream",
+  "repo": "jwerle/console-stream",
+  "description": "Stream interface around console methods",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "juliangruber/through": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
+}

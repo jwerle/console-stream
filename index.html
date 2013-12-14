@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script type="text/javascript" src="/build/build.js" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      var ConsoleStream = require('console-stream');
+      var through = require('juliangruber-through');
+      var stream = through();
+      var cstream = ConsoleStream(console);
+
+      stream.pipe(cstream);
+
+      stream.write('fooooo');
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>
